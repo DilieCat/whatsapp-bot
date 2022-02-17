@@ -17,7 +17,7 @@
  */
 
 /********** MODULES **********/
-import { decryptMedia, Client } from ('@open-wa/wa-automate')
+const { decryptMedia, Client } = require('@open-wa/wa-automate')
 const fs = require('fs-extra')
 const Nekos = require('nekos.life')
 const neko = new Nekos()
